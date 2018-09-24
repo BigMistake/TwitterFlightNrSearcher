@@ -12,10 +12,10 @@ namespace TwitterSearcher
         {
             try
             {
-                var consumerKey = "PZGgv6PAVpENtukmCdzZilkcb";
-                var consumerSecret = "srSUgaR7HGf8ZfWRDMHaX26XPeLkl5Cf23NdJ3GEI8NwbnGZ4";
-                var accessToken = "88667081-6Cha8vkESBzlc3tkOsExDZqY6sNBHYu1k2L16KWpT";
-                var accessTokenSecret = "PLWENgjNuK9vuPytK6tAZUfRPk2xGMEhoFFqXIsm3CSS8";
+                var consumerKey = "consumerKeyHere";
+                var consumerSecret = "consumerSecretHere";
+                var accessToken = "accessTokenHere";
+                var accessTokenSecret = "accessTokenSecretHere";
 
                 var applicationCredentials = Auth.SetUserCredentials(consumerKey, consumerSecret, accessToken, accessTokenSecret);
 
